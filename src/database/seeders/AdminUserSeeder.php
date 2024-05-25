@@ -15,11 +15,6 @@ class AdminUserSeeder extends Seeder
      */
     public function run()
     {
-        //管理者ユーザー
-        User::create([
-            'name' => '藤井健一朗',
-            'email' => 'miragino.verycute@gmail.com',
-            'password' => Hash::make('kenichi1010'),
-        ]);
+        //
     }
 }
